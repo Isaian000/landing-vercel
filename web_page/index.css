@@ -1,0 +1,117 @@
+#navbar{
+    size: 100px;
+    background-color: aqua;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+#navbarSupportedContent{
+    font-family: sans-serif;
+    margin-left: 700px;
+    font-size: 18px;
+}
+
+#nav-bar-txt{
+    color: black;
+}
+#nav-bar-txt:hover{
+    color: #0342a0;
+}
+
+
+#titulo_principal{
+    font-family: Merriweather;
+    font-size: 50px;
+}
+
+#titulo_secundario{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #0342a0;
+}
+
+#btn_hero{
+    margin-top: 20px;
+    background-color: #0342a0;
+    border-color: beige;
+}
+
+#btn_hero_2{
+    margin-top: 20px;
+    background-color: white;
+    border-color: #0342a0;
+    
+}
+
+#btn_hero_2:hover{
+    background-color: #0342a0;
+    color: white;
+}
+
+#sub_1{
+    font-family: Merriweather;
+    font-size: 40px;
+    color: #0342a0;
+
+}
+
+#sub_2{
+    font-family: Merriweather;
+    font-size: 40px;
+    color: #0342a0;
+}
+
+#sub_3{
+    font-family: Merriweather;
+    font-size: 30px;
+    color: black;
+}
+
+#txt_2{
+    font-family:  sans-serif;
+
+}
+
+#txt_3{
+    font-family:  sans-serif;
+}
+
+#imgs{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 80px;
+    margin-left: 42%;
+}
+
+#serv_card{
+    background-color: transparent;
+    border: none;
+}
+
+#contact_tittle{
+    font-size: 60px;
+    font-family: Merriweather;
+    color: #0342a0;
+}
+
+#send_btn{
+    background-color: #0342a0;
+    color: white;
+    
+}
+
+
+#send_btn:hover{
+    background-color: white;
+    color: #0342a0;
+}
+
+
+
+
+
+
+
