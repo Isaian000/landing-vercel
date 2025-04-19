@@ -177,7 +177,7 @@
         </section>
         <!-- fin About -->
 
-        <!-- Proyectos -->
+        <!-- Servicios -->
         <section id="proyectos" class="text-center py-5">
           <div class="container py-5">
             <div class="row justify-content-center">
@@ -195,7 +195,7 @@
               <div class="col-md-4 col-sm-12 mx-auto mb-5">
                 <div class="card h-100" id="serv_card">
                   <img id="imgs"
-                    src="/web_page/img/home (1).png"
+                    src="./img/home (1).png"
                     alt="proyecto1"
                     class="card-img-top1"
                   />
@@ -206,7 +206,7 @@
                     <p class="card-text mb-3">
                       <ul>
                         <li>
-                          Tramite de creditops Infonavit
+                          Tramite de creditos Infonavit
                         </li>
                         <li>
                           Asesorias para compra y venta de viviendas
@@ -220,7 +220,7 @@
               <div class="col-md-4 col-sm-12 mx-auto mb-5">
                 <div class="card h-100" id="serv_card">
                   <img id="imgs"
-                    src="/web_page/img/piggy-bank (1).png"
+                    src="./img/piggy-bank (1).png"
                     alt="proyecto1"
                     class="card-img-top2"
                   />
@@ -240,7 +240,7 @@
               <div class="col-lg-4 mx-auto mb-5">
                 <div class="card h-100" id="serv_card">
                   <img id="imgs"
-                    src="/web_page/img/user (1).png"
+                    src="./img/user (1).png"
                     alt="proyecto1"
                     class="card-img-top3"
                   />
@@ -264,7 +264,7 @@
               <div class="col-md-4 col-sm-12 mx-auto mb-5">
                 <div class="card h-100" id="serv_card">
                   <img id="imgs"
-                    src="/web_page/img/chart-pie-alt.png"
+                    src="./img/chart-pie-alt.png"
                     alt="proyecto1"
                     class="card-img-top1"
                   />
@@ -289,7 +289,7 @@
               <div class="col-md-4 col-sm-12 mx-auto mb-5">
                 <div class="card h-100" id="serv_card">
                   <img id="imgs"
-                    src="/web_page/img/file-invoice (3).png"
+                    src="./img/file-invoice (3).png"
                     alt="proyecto1"
                     class="card-img-top1"
                   />
@@ -314,7 +314,7 @@
               <div class="col-md-4 col-sm-12 mx-auto mb-5">
                 <div class="card h-100" id="serv_card">
                   <img id="imgs"
-                    src="/web_page/img/pencil.png"
+                    src="./img/pencil.png"
                     alt="proyecto1"
                     class="card-img-top1"
                   />
@@ -339,7 +339,7 @@
             </div>
           </div>
         </section>
-        <!-- fin proyectos -->
+        <!-- fin servicios -->
 
 
         <!-- Contacto -->
@@ -361,9 +361,9 @@
               </div>
 
               <div class="col-lg-8 col-12">
-                <form action="#">
+                <form action="https://formsubmit.co/sheyag9@outlook.com" method="POST">
                   <div class="container-fluid bg-light pb-4 rounded-3">
-                    <!-- Aqui diseña tu formulario -->
+                    <!-- Formulario -->
                     <div class="row g-3">
                       <div class="col-6 text-start">
                         <label for="nombre" class="form-label">Nombre</label>
@@ -372,6 +372,8 @@
                           name="nombre"
                           id="nombre"
                           class="form-control"
+                          placeholder="Nombre"
+                          required
                         />
                       </div>
                       <div class="col-6 text-start">
@@ -381,6 +383,8 @@
                           name="apellido"
                           id="apellido"
                           class="form-control"
+                          placeholder="Apellido"
+                          required
                         />
                       </div>
                       <div class="col-6 text-start">
@@ -390,6 +394,8 @@
                           name="tel"
                           id="tel"
                           class="form-control"
+                          placeholder="Telefono"
+                          required
                         />
                       </div>
                       <div class="col-6 text-start">
@@ -399,25 +405,27 @@
                           name="email"
                           id="email"
                           class="form-control"
+                          placeholder="Email"
+                          required
                         />
                       </div>
                       <div class="col-12 text-start">
-                        <label for="comentarios" class="form-label"
+                        <label for="servicios" class="form-label"
                           >Servicio</label
                         >
                         <textarea
-                          name="comentarios"
-                          id="comentarios"
+                          name="servicio"
+                          id="servicio"
                           class="form-control"
                         ></textarea>
                       </div>
                     </div>
                   </div>
+                  <div class="row justify-content-end my-4 px-5">
+                    <button type="submit" class="btn btn-primary" id="send_btn">Enviar</button>
+                  </div>
                 </form>
               </div>
-            </div>
-            <div class="row justify-content-end my-4 px-5">
-              <button class="btn btn-primary" id="send_btn">Enviar</button>
             </div>
           </div>
         </section>
